@@ -12,4 +12,9 @@ public class Player : MonoBehaviour
 			rb.velocity = Vector3.up * force;
 		}
 	}
+
+	private void OnTriggerEnter2D(Collider2D col)
+	{
+		print(col);
+	}
 }
