@@ -248,6 +248,16 @@ Prefab:
       propertyPath: materials.Array.data[3]
       value: 
       objectReference: {fileID: 2100000, guid: 009196a01467cac4c94aafd12494d3e2, type: 2}
+    - target: {fileID: 114887630394379800, guid: 7398d6cf79d25f047b6c38482c467111,
+        type: 2}
+      propertyPath: force
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 50176995176256304, guid: 7398d6cf79d25f047b6c38482c467111,
+        type: 2}
+      propertyPath: m_GravityScale
+      value: 2.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7398d6cf79d25f047b6c38482c467111, type: 2}
   m_IsPrefabParent: 0
@@ -289,38 +299,6 @@ Prefab:
     - target: {fileID: 4757670991788054, guid: ecb2e37a2069cd04ebd460b5bfbe4926, type: 2}
       propertyPath: m_RootOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1896671928611938, guid: ecb2e37a2069cd04ebd460b5bfbe4926, type: 2}
-      propertyPath: m_TagString
-      value: Azul
-      objectReference: {fileID: 0}
-    - target: {fileID: 1791100921138690, guid: ecb2e37a2069cd04ebd460b5bfbe4926, type: 2}
-      propertyPath: m_TagString
-      value: Rosa
-      objectReference: {fileID: 0}
-    - target: {fileID: 1873450109162256, guid: ecb2e37a2069cd04ebd460b5bfbe4926, type: 2}
-      propertyPath: m_TagString
-      value: Verde
-      objectReference: {fileID: 0}
-    - target: {fileID: 1950916313828180, guid: ecb2e37a2069cd04ebd460b5bfbe4926, type: 2}
-      propertyPath: m_TagString
-      value: Laranja
-      objectReference: {fileID: 0}
-    - target: {fileID: 1896671928611938, guid: ecb2e37a2069cd04ebd460b5bfbe4926, type: 2}
-      propertyPath: m_Name
-      value: Azul
-      objectReference: {fileID: 0}
-    - target: {fileID: 1791100921138690, guid: ecb2e37a2069cd04ebd460b5bfbe4926, type: 2}
-      propertyPath: m_Name
-      value: Rosa
-      objectReference: {fileID: 0}
-    - target: {fileID: 1873450109162256, guid: ecb2e37a2069cd04ebd460b5bfbe4926, type: 2}
-      propertyPath: m_Name
-      value: Verde
-      objectReference: {fileID: 0}
-    - target: {fileID: 1950916313828180, guid: ecb2e37a2069cd04ebd460b5bfbe4926, type: 2}
-      propertyPath: m_Name
-      value: Laranja
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ecb2e37a2069cd04ebd460b5bfbe4926, type: 2}
