@@ -2,14 +2,17 @@
 
 public class Player : MonoBehaviour
 {
+	public SpriteRenderer sprite;
 	public Rigidbody2D rb;
 	public float force;
-	public string[] tags; 
+	public string[] tags;
+	public Material[] materials;
 
 	private void Start()
 	{
 		int num = Random.Range(0, 4);
-		print(num);
+		tag = tags[num];
+		sprite.material = materials[num];
 	}
 
 	private void Update()
