@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
 		int num = Random.Range(0, 4);
 		tag = tags[num];
 		sprite.material = materials[num];
+		rb.isKinematic = true;
 	}
 
 	private void Update()
@@ -24,6 +25,7 @@ public class Player : MonoBehaviour
 		if (Input.GetKeyDown(KeyCode.Mouse0))
 		{
 			rb.velocity = Vector3.up * force;
+			rb.isKinematic = false;
 		}
 	}
 
