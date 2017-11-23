@@ -57,7 +57,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2.5
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -89,6 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dea535ae447943a429a8acf0434d4a03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  displayScore: {fileID: 0}
   sprite: {fileID: 212764002358420712}
   rb: {fileID: 50176995176256304}
   force: 10
@@ -102,6 +103,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 162118075aae9de48b36f0b9cce4d56b, type: 2}
   - {fileID: 2100000, guid: c8be16c7520d9694f9859e9307c3c549, type: 2}
   - {fileID: 2100000, guid: 009196a01467cac4c94aafd12494d3e2, type: 2}
+  score: 0
 --- !u!212 &212764002358420712
 SpriteRenderer:
   m_ObjectHideFlags: 1

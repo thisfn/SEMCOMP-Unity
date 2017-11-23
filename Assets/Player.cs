@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
+	public Text displayScore;
 	public SpriteRenderer sprite;
 	public Rigidbody2D rb;
 	public float force;
@@ -36,7 +38,7 @@ public class Player : MonoBehaviour
 		else
 		{
 			score = score + 17;
-			print(score);
+			displayScore.text = score.ToString();
 		}
 	}
 }
