@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D col)
 	{
-		print(col.tag);
+		if (col.tag != tag)
+			Destroy(gameObject);
 	}
 }
