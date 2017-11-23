@@ -255,6 +255,38 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1896671928611938, guid: ecb2e37a2069cd04ebd460b5bfbe4926, type: 2}
+      propertyPath: m_TagString
+      value: Azul
+      objectReference: {fileID: 0}
+    - target: {fileID: 1791100921138690, guid: ecb2e37a2069cd04ebd460b5bfbe4926, type: 2}
+      propertyPath: m_TagString
+      value: Rosa
+      objectReference: {fileID: 0}
+    - target: {fileID: 1873450109162256, guid: ecb2e37a2069cd04ebd460b5bfbe4926, type: 2}
+      propertyPath: m_TagString
+      value: Verde
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950916313828180, guid: ecb2e37a2069cd04ebd460b5bfbe4926, type: 2}
+      propertyPath: m_TagString
+      value: Laranja
+      objectReference: {fileID: 0}
+    - target: {fileID: 1896671928611938, guid: ecb2e37a2069cd04ebd460b5bfbe4926, type: 2}
+      propertyPath: m_Name
+      value: Azul
+      objectReference: {fileID: 0}
+    - target: {fileID: 1791100921138690, guid: ecb2e37a2069cd04ebd460b5bfbe4926, type: 2}
+      propertyPath: m_Name
+      value: Rosa
+      objectReference: {fileID: 0}
+    - target: {fileID: 1873450109162256, guid: ecb2e37a2069cd04ebd460b5bfbe4926, type: 2}
+      propertyPath: m_Name
+      value: Verde
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950916313828180, guid: ecb2e37a2069cd04ebd460b5bfbe4926, type: 2}
+      propertyPath: m_Name
+      value: Laranja
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ecb2e37a2069cd04ebd460b5bfbe4926, type: 2}
   m_IsPrefabParent: 0
