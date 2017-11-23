@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
 	public float force;
 	public string[] tags;
 	public Material[] materials;
+	public int score;
 
 	private void Start()
 	{
@@ -30,6 +31,12 @@ public class Player : MonoBehaviour
 		{
 			Destroy(gameObject);
 			SceneManager.LoadScene(0);
+		}
+
+		else
+		{
+			score = score + 17;
+			print(score);
 		}
 	}
 }
