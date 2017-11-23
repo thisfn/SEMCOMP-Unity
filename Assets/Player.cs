@@ -27,6 +27,11 @@ public class Player : MonoBehaviour
 			rb.velocity = Vector3.up * force;
 			rb.isKinematic = false;
 		}
+
+		if (Input.GetKeyDown(KeyCode.R))
+		{
+			SceneManager.LoadScene(0);
+		}
 	}
 
 	private void OnTriggerEnter2D(Collider2D col)
