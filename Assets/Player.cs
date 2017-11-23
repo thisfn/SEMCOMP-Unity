@@ -4,6 +4,7 @@ public class Player : MonoBehaviour
 {
 	public Rigidbody2D rb;
 	public float force;
+	public string[] tags; 
 
 	private void Start()
 	{

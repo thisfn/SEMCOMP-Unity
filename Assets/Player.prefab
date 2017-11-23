@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 114887630394379800}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Azul
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91,6 +91,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 50176995176256304}
   force: 5
+  tags:
+  - Azul
+  - Rosa
+  - Verde
+  - Laranja
 --- !u!212 &212764002358420712
 SpriteRenderer:
   m_ObjectHideFlags: 1
