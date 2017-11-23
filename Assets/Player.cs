@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -26,6 +27,9 @@ public class Player : MonoBehaviour
 	private void OnTriggerEnter2D(Collider2D col)
 	{
 		if (col.tag != tag)
+		{
 			Destroy(gameObject);
+			SceneManager.LoadScene(0);
+		}
 	}
 }
